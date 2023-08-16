@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  letter-spacing:4px;
+  font-size: 1.1rem;
+  overflow-x: hidden; /* 隐藏滚动条 */
+} 
+
+#backs{
+  bottom: 3rem;
+  right: 3rem;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+svg{
+  width:4rem;
+  color: #f76707;
+}
+/*-------------------header---------------------------*/
+.desc{
+  padding:1rem;
+  background-color: #f76707;
+  width: 100vw;
+}
+
+.desc .imgage{
+  width: 80%;
+
+}
+
+.imgage img{
+  width: 0px;
+  flex-basis: 16%;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.imgs:hover{
+  transform: rotate(20deg);
+  transition: transform 0.2s linear;
+}
+
+/*-------------------main---------------------------*/
+ .main{
+  padding: 20px 0px;
+ }
+
+ .forms{
+  width: auto;
+ }
+
+.formitems{
+  margin-bottom: 2rem;
+
+}
+
+.formin {
+  flex-basis:30%;
+  flex-shrink: 0;
+  margin-right: 1rem;
+}
+
+.formin label::after
+,legend::after{
+  content: ":";
+}
+
+
+ .formitems ul li{
+  list-style-type: none;
+  margin-right: 1rem;
+ }
+
+
+ .btns .btn{
+   margin-right: 6rem;
+   background-color: #f76707;
+   color: #fff;
+   border-radius: 6px;
+   border: none;
+   padding: 10px 16px;
+   margin-bottom: 2rem;
+ }
+

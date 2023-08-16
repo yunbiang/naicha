@@ -1,0 +1,67 @@
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+#backs{
+  bottom: 2.6rem;
+  right: 1rem;
+}
+
+#backs{
+  display: none;
+  position: fixed;
+}
+
+/*-------------------header---------------------------*/
+.desc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgage{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+/*-------------------main---------------------------*/
+ .main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+
+
+.formitems{
+  display: flex;
+  align-items: center;
+
+}
+
+.formin {
+  float: left;
+  text-align: right;
+}
+
+
+ .forms .formitems ul
+ {
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+
+ .btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }

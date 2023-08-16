@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="css/layout.css">
+
+    <title>xidongdong</title>
+  </head>
+
+<body>
+    <div class="container">
+        <header class="desc">
+            <div class="imgage">
+            <img  class="imgs" src="img/mt1.jpg">
+            <img  class="imgs" src="img/mt2.jpg">
+            <img  class="imgs" src="img/mt3.jpg">
+            <img  class="imgs" src="img/mt4.jpg">
+            </div>
+        </header>
+
+        <main class="main"> 
+        <form class="forms" method="post"> 
+            <div class="formitems">
+            <div class="formin">
+            <legend>奶茶种类</legend>
+            </div>
+
+            <ul>
+            <li> <input type="radio" name="nc" id="nc_1" value="芋泥啵啵"> 
+                <label for="nc_1">芋泥啵啵</label> </li>
+            <li> <input type="radio" name="nc" id="nc_2" value="芝芝桃桃"> 
+                <label for="nc_2">芝芝桃桃</label> </li>
+            <li> <input type="radio" name="nc" id="nc_3" value="多肉葡萄"> 
+                <label for="nc_3">多肉葡萄</label> </li>
+            </ul>
+            </div>
+
+            <div class="formitems">
+                <div class="formin">
+                    <label for="cupnum">几杯</label>
+                </div>
+                 <input type="number"  name="cupnum" id="cupnum" required>
+            </div>
+            
+            <div class="formitems">
+                <div class="formin">
+                    <label for="cupshape">杯型</label>
+                </div>
+                
+                <ul>
+                    <li> <input type="radio" name="cupshape" id="cup_1" value="小杯" required> 
+                        <label for="cup_1">小杯</label> </li>
+                    <li> <input type="radio" name="cupshape" id="cup_2" value="中杯" required> 
+                        <label for="cup_2">中杯</label> </li>
+                    <li> <input type="radio" name="cupshape" id="cup_3" value="大杯" required> 
+                        <label for="cup_3">大杯</label> </li>
+                    </ul>
+            </div>
+
+            <div class="formitems">
+                <div class="formin">
+                    <label for="sweet">甜度</label>
+                </div>
+
+                <select id="sweet" name="sweet" required>
+                    <option>全糖</option>
+                    <option selected>半糖</option>
+                    <option>三分糖</option>
+                  </select>
+            </div>
+
+            <div class="formitems">
+                <div class="formin">
+                    <legend for="boba">免费小料</legend>
+                </div>
+                <ul>
+                <li>
+                    <input  type="checkbox"  id="boba"  name="freesnack" value="波霸">
+                    <label for="boba">波霸</label>
+                </li>
+     
+                <li>
+                    <input type="checkbox"  id="yeguo" name="freesnack"   value="椰果">
+                    <label for="yeguo">椰果</label>
+                </li>
+
+                <li>
+                    <input  type="checkbox"  id="zhenzhu" name="freesnack" value="珍珠">
+                    <label for="zhenzhu">珍珠</label>
+                </li>
+ 
+                <li>
+                    <input  type="checkbox"  id="ximi" name="freesnack" value="西米">
+                    <label for="ximi">西米</label>
+                </li>
+                
+                <li>
+                    <input  type="checkbox"  id="hongdou" name="freesnack" value="红豆">
+                    <label for="hongdou">红豆</label>
+                </li>
+                </ul>
+            </div>
+
+            <div class="formitems">
+                <div class="formin"> 
+                     <legend>加价小料</legend>
+                </div>
+
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="icecream" name="snack" value="冰淇淋(4¥)">
+                            <label for="icecream">冰淇淋(4¥)</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="bud" name="snack" value="布丁(3¥)">
+                            <label for="bud">布丁(3¥)</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="nais" name="snack" value="奶霜(2¥)">
+                            <label for="nais">奶霜(2¥)</label>
+                        </li>
+                    </ul>
+            </div>
+
+            <div class="formitems">
+                <div class="formin">
+                      <label for="ice">是否加冰</label>
+                </div>
+              
+                <ul>
+                <li>
+                    <input type="radio" id="isice" name="ice" value="加冰" required>
+                    <label for="isice">是</label>
+                </li>
+                
+                <li>
+                    <input type="radio" id="noice" name="ice" value="不加冰" required>
+                    <label for="noice">否</label>
+                </li>
+                </ul>
+            </div>
+
+            <div class="formitems">
+                <div class="formin">
+                    <label for="tea">是否去茶底</label>
+                </div>
+                
+                <ul>
+                    <li>
+                        <input type="radio" id="istea" name="tea" value="加茶底" required>
+                        <label for="istea">是</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="notea" name="tea"  value="不加茶底"  required>
+                        <label for="notea">否</label>
+                    </li>
+                </ul>
+            </div> 
+
+             <div class="formitems">
+                <div class="formin">
+                  <label for="add">你的地址</label>
+                </div>
+            
+                <textarea name="address" rows="8" required></textarea>
+            </div> 
+
+
+            <div class="formitems">
+                <div class="formin">
+                    <label for="tel">你的电话</label>
+                </div>
+                <input type="text" name="tell" id="tel" required  />
+                <span class="error" id="mobileErr"></span>
+            </div>
+
+            <div class="formitems">
+                <div class="formin">
+                    <label for="datet">送达时间</label>
+                </div>
+                 
+                  <input type="time" id="datet" name="times"  required/>
+            </div>
+
+
+            <div class="formitems">
+                <div class="formin">
+                    <label for="mes">备注</label>
+                </div>
+                
+                <textarea  name="mess" rows="8" ></textarea>
+            </div> 
+
+            <div class="formitems">
+                <div class="formin">
+                    <label for="pay">支付方式</label>
+                </div>
+                
+                <ul>
+                    <li>
+                        <input type="radio" id="wechat" name="pays" value="微信支付" required>
+                        <label for="wechat">微信支付</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="zfb" name="pays" value="支付宝" required>
+                        <label for="zfb">支付宝</label>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="btns">
+                <button  type="submit"  class="btn">提交</button>
+                <button type="reset"  class="btn">重置</button>
+            </div>
+        </form>
+    </main>
+
+    <div id="backs">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+         stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+             d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg> 
+    </div>
+</div>
+
+<script src="js/02.js"></script>
+</body>
+</html>

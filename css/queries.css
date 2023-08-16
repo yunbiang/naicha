@@ -1,0 +1,39 @@
+
+/* BELOW 480px (ipad desktops) */
+ @media (max-width:30em){
+    body{
+    font-size: 12px;
+    }
+
+    .formitems{
+        margin-bottom: 14px;
+    }
+
+
+    .btns .btn{
+        margin-right: 1rem;
+        padding: 6px 10px;
+        margin-bottom: 1.6rem;
+      }   
+      
+       svg{
+        width: 2rem;
+      }
+
+
+} 
+
+
+/* BELOW 400px (phone desktops) */
+ @media (max-width:25em){
+
+    .formitems{
+        margin-bottom:12px;
+    }
+
+
+    body{
+        letter-spacing:1px;
+        font-size: 6px;
+    }
+} 
